@@ -1,1 +1,23 @@
 @import "./base.css";
+.speakers_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.speaker_image {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin: auto;
+  object-fit: contain;
+}
+.speaker_company {
+  font-size: 1.4rem;
+}
+.speaker_name {
+  font-size: 1.8rem;
+}
+.speaker_bio {
+  font-size: 1.5rem;
+}

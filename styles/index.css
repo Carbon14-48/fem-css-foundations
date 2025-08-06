@@ -1,1 +1,11 @@
 @import "./base.css";
+
+.main_title {
+  color: white;
+  font-size: 128px;
+  font-weight: bold;
+  padding: 0 24px;
+}
+#main_sub {
+  font-size: 48px;
+}
