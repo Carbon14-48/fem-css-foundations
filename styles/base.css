@@ -1,0 +1,25 @@
+@font-face {
+  font-family: PressStart2P;
+  src: url(../fonts/PressStart2P-Regular.ttf);
+}
+@font-face {
+  font-family: NataSans;
+  src: url(../fonts/NataSans-VariableFont_wght.ttf);
+}
+:root {
+  --color-primary: rgb(8, 89, 136);
+  --color-text-primary: aliceblue;
+  --base-font-family: "NataSans", "PressStart2P", sans-serif;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-family: var(--base-font-family);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
